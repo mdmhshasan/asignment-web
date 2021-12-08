@@ -1,0 +1,712 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+.header{
+width: 100%;
+margin: 0;
+padding:0;
+}
+.header .container{
+width: 1140px;
+margin: 0;
+padding: 0;
+}
+.nav-menu{
+margin: 0;
+padding: 5px;
+width: 100%;
+background: #6200EE;
+}
+.nav-menu .logo{
+height: auto;
+}
+.nav-menu .logo img{
+width: 70%;
+height: auto;
+}
+.nav-menu ul {
+position: relative;
+top: 0;
+left: -27%;
+}
+.nav-menu ul li{
+list-style: none;
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+.nav-menu ul li a{
+position: relative;
+top: 5px;
+left: 0;
+display: block;
+font-family: sans-serif;
+font-size: 15px;
+text-align: center;
+text-transform: capitalize;
+font-weight: 800;
+color: #fff;
+padding: 10px;
+text-decoration: none;
+}
+.nav-menu {
+display: flex;
+justify-content: space-between;
+}
+.nav-menu .menu-btn{
+border: none;
+padding:0 30px;
+position: relative;
+font-size: 15px;
+font-weight: 900;
+text-transform: capitalize;
+right: 50px;
+border-radius: 5px;
+color: #fff;
+background: #00d2d3;
+/* 	box-shadow: -2px -2px 5px #21f123,2px 2px 5px #21f123;
+*/}
+/* *******************************
+banner area style start here
+*********************************** */
+.banner{
+/* width: 100%;
+*/height: 100vh;
+background: url(../image/bg.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.banner .banner-text{
+position: relative;
+top: 40px;
+left: 0;
+width: 800px;
+height: 400px;
+background: transparent;
+backdrop-filter: blur(5px);
+}
+.banner h1{
+position: relative;
+top: 50px;
+left: 5px;
+padding: 10px;
+font-family: 'Poppins', sans-serif;
+font-size: 52px;
+text-transform: capitalize;
+text-align: left;
+color:#fff;
+font-weight: 900;
+}
+.banner p{
+position: relative;
+top: 50px;
+left: 5px;
+padding: 10px;
+text-align: left;
+font-size: 25px;
+font-weight: 800;
+text-transform: capitalize;
+font-family: 'Poppins', sans-serif;
+color: #fff;
+margin-right: 169px;
+}
+.banner .banner-btn{
+position: relative;
+top: 83px;
+left: 30px;
+padding: 15px 25px 15px 25px ;
+color: #fff;
+background: #00d2d3;
+font-size: 15px;
+text-transform: capitalize;
+text-align: center;
+border: none;
+outline: none;
+border-radius: 5px;
+transition: .2s;
+cursor: pointer;
+}
+.banner .banner-btn:hover{
+background: #48dbfb;
+}
+/************************************
+browse lesson style start here
+*************************************** */
+.browse-lesom{
+position: relative;
+top: 0;
+left: 0;
+width: 100%;
+}
+.lesson-wraper{
+display: flex;
+justify-content: space-evenly;
+position: relative;
+margin: auto;
+width: 1140px;
+}
+.browse-lesom h1{
+position: relative;
+top: 10px;
+left: 0;
+font-size: 40px;
+font-weight: 600;
+text-align: center;
+color: #000;
+text-transform: capitalize;
+margin: 51px;
+padding: 10px;
+}
+.browse-lesom .lesson-1,
+.browse-lesom .lesson-2,
+.browse-lesom .lesson-3{
+position: relative;
+position: relative;
+width: 300px;
+height: 300px;
+background: #fff;
+margin: 10px;
+}
+.browse-lesom .lesson-3 h5{
+margin-top: 30px;
+font-size: 16px;
+}
+.lesson-details span{
+position: relative;
+font-size: 20px;
+color: #000;
+background:#e056fd;
+padding: 5px;
+margin: 5px;
+}
+.lesson-wraper .img-box img{
+max-width: 100%;
+border-radius: 10px;
+}
+.lesson-details p{
+position: relative;
+top: 20px;
+}
+.lesson-details a{
+text-decoration: none;
+}
+.lesson-details p a:hover{
+color: #00cec9;
+}
+.lesson-details a{
+position: relative;
+top: 10px;
+font-size: 15px;
+color: #000;
+text-decoration: none;
+}
+.lesson-details a:hover{
+color: #55efc4;
+}
+.lesson-details a:hover{
+color: ;
+}
+.lesson-details p h5{
+font-size: 20px;
+color: red;
+}
+/* ********************
+middle area style start here
+********************* */
+.middle-area{
+background: #dff9fb;
+position: relative;
+top: 90px;
+width:1140px;
+}
+.middle-area .container{
+height: 635px;
+}
+.middle-area h1{
+font-size: 30px;
+padding: 40px;
+text-align: center;
+font-size: 40px;
+}
+.middle-area .box-wraper{
+display: flex;
+position: relative;
+justify-content: space-around;
+}
+.middle-area .box-wraper .box1{
+position: relative;
+top: 0;
+left: 0;
+width: 300px;
+background: transparent;
+height: 400px;
+margin: 10px;
+}
+.middle-area .box-wraper .box1 img{
+position: relative;
+top: 0;
+left: 32px;
+width: 240px;
+height: auto;
+}
+.middle-area .box-wraper .box1 .box-tex{
+position: relative;
+top: 0;
+left: 0;
+width: 255px;
+height: 150px;
+background: transparent;
+padding: 5px;
+}
+.middle-area .box-wraper .box1 .box-tex h4{
+font-size: 24px;
+color: #000;
+text-align: center;
+}
+.middle-area .box-wraper .box1 .box-tex p{
+text-align:center;
+}
+.middle-area .middle-btn{
+position: relative;
+top: 0;
+left: 42%;
+border: none;
+border-radius: 5px;
+background: #00cec9;
+font-size: 15px;
+text-align: center;
+text-transform: capitalize;
+font-weight: 800;
+color: #fff;
+padding: 12px 23px 12px 23px;
+cursor: pointer;
+}
+/**********************
+learning-area
+********************8****/
+.learning-area{
+position: relative;
+width: 100%;
+top:95px;
+}
+.learning-area .container{
+width: 1140px;
+}
+.learning-area .wraper{
+position: relative;
+top: 120px;
+}
+.learning-area .wraper .skill-box1{
+display: flex;
+padding: 10px;
+height: 400px;
+width: 1140px;
+/* background: blue; */
+}
+.learning-area h1{
+position: relative;
+padding: 10px;
+margin: 5px;
+font-size: 40px;
+color: #000;
+text-align: center;
+}
+.learning-area h6{
+color: #000;
+text-align: center;
+font-size: 15px;
+}
+.learning-area .wraper .skill-box1 h2{
+position: relative;
+font-size: 36px;
+color: #000;
+}
+.skill-box1 .text-box{
+width: 546px;
+position: relative;
+top: 0;
+margin: auto;
+left: 10px;
+padding: 10px;
+}
+.skill-box1 .text-box p{
+font-size: 18px;
+text-transform: capitalize;
+font-weight: 400;
+}
+.learning-area .wraper .skill-box1 img{
+position: relative;
+left: 5px;
+width: 462px;
+height: 190px;
+}
+/* skill learnign 2 */
+.learning-area .wraper .skill-box2 {
+display: flex;
+padding: 10px;
+height: 400px;
+width: 1140px;
+/* background: skyblue; */
+}
+.learning-area .wraper .skill-box2 .text-box{
+width: 546px;
+position: relative;
+top: 0;
+margin: auto;
+left:7%;
+padding: 10px;
+}
+.skill-box2 .text-box h2{
+position: relative;
+font-size: 36px;
+color: #000;
+}
+.skill-box2 .text-box p{
+font-size: 18px;
+text-transform: capitalize;
+font-weight: 400;
+}
+.skill-box2 img{
+position: relative;
+left: 77px;
+width: 450px;
+height: auto;
+}
+.skill-box3 {
+display: flex;
+position: relative;
+top:0;
+padding: 10px;
+height: 400px;
+width: 1140px;
+/* background: green; */
+}
+.skill-box3 .text-box h2{
+position: relative;
+left:15px;
+font-size: 36px;
+color: #000;
+padding: 10px;
+}
+.skill-box3 .text-box p{
+position: relative;
+left:15px;
+font-size: 18px;
+color: #000;
+padding: 10px;
+margin-right: 22px;
+}
+.skill-box3 img{
+position: relative;
+left: 45px;
+width: 519px;
+height: auto;
+}
+.learning-area .wraper .browse-lesom-btn{
+position: relative;
+top: 160px;
+left: 50%;
+outline: none;
+border: none;
+background:#00d2d3;
+font-size: 15px;
+text-align: center;
+text-transform: capitalize;
+font-weight: 800;
+color: #fff;
+border-radius: 5px;
+padding: 10px 30px 10px 30px;
+}
+/* ***************************
+.client-area
+********************************** */
+.client-area{
+width: 100%;
+height: 500px;
+position: relative;
+top: 393px;
+background: #e3e4e8;
+border-top-right-radius: 20%;
+border-top-left-radius: 20%;
+}
+.client-area .container{
+width: 1140px;
+}
+.client-area .wraper-box{
+position: relative;
+top:60px;
+background: #D2E3F5;
+margin: auto;
+display: flex;
+}
+.client-area .uer-text{
+/* position: relative;
+width: 100%;
+height: 100px;
+background: red;
+top: 144px;
+z-index: 2; */
+}
+.client-area .uer-text h1{
+text-align: center;
+text-transform: capitalize;
+font-size: 36px;
+color: #000;
+font-weight: 900;
+padding-top: 40px;
+}
+.client-area .uer-text p{
+text-align: center;
+text-transform: capitalize;
+font-size: 18px;
+color: #000;
+font-weight: 700;
+padding-top: 20px;
+}
+.wraper-box .client-box-1{
+position: relative;
+width: 324px;
+height: 344px;
+padding: 5px;
+margin: 5px;
+}
+.star-icon{
+position: relative;
+top: 10px;
+width: 300px;
+height: 50px;
+margin: 0;
+padding: 0;
+text-align: center;
+left: 34%;
+}
+.star-icon span{
+font-size: 20px;
+text-align: center;
+font-weight: 900;
+padding: 5px;
+background: #00cec9;
+color: #fff;
+}
+.client-box-1 img{
+position: relative;
+margin: 16px;
+left: 105px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+.client-box-1 .text{
+position: relative;
+top: 10px;
+text-align: center;
+}
+.client-box-1 .text h6{
+text-align: center;
+font-size: 15px;
+margin-top: 20px;
+color: #000;
+}
+/* foter area style start here */
+.details-box{
+position: relative;
+top: 149px;
+background: #eee;
+border-bottom: 2px solid #000;
+}
+.details-box .title-box{
+position: relative;
+top: 68px;
+left: 0;
+width: 100%;
+}
+.details-box .title-box h1{
+text-transform: capitalize;
+color: #000;
+text-align: center;
+font-weight: 800;
+margin: 10px;
+font-size: 40px;
+}
+.details-box .title-box p{
+text-align: center;
+color: #000;
+font-size: 18px;
+margin: 10px;
+}
+.teching-btn{
+position: relative;
+left: 45%;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+font-weight: bold;
+background: #19d7e8;
+cursor: pointer;
+}
+.social-box{
+position: relative;
+top: 0;
+width: 100%;
+height: 340px;
+background: #5f27cd;
+top: 178px;
+border-bottom: 2px solid #000;
+display: flex;
+justify-content: space-around;
+}
+.social-1{
+position: relative;
+top: 0;
+left: 20px;
+width: 435px;
+height: 290px;
+}
+.social-2{
+position: relative;
+top: 0;
+left: 0;
+width: 220px;
+height: 250px;
+padding: 5px;
+}
+.social-3{
+position: relative;
+top: 0;
+left: 0;
+width: 225px;
+height: 250px;
+}
+.social-2 ul {
+position: relative;
+line-height: 44px;
+}
+.social-2 ul span{
+font-size: 22px;
+color: #fff;
+font-weight: bold;
+text-transform: capitalize;
+}
+.social-2 ul li{
+list-style: none;
+display: block;
+}
+.social-2 ul li a{
+font-size: 18px ;
+text-align: center;
+text-transform: capitalize;
+color: #fff;
+text-decoration: none;
+}
+.social-3 ul {
+line-height: 44px;
+position: relative;
+top: 10px;
+left: 0;
+}
+.social-3 ul span{
+font-size: 22px;
+text-transform:capitalize;
+color: #fff;
+font-weight: bold;
+}
+.social-3 ul li{
+list-style: none;
+display: block;
+}
+.social-3 ul li a{
+font-size: 18px ;
+text-align: center;
+text-transform: capitalize;
+color: #fff;
+text-decoration: none;
+}
+.social-3 ul li a ion-icon{
+color: #21f123;
+font-size: 30px;
+}
+.social-1,.social-2,.social-3{
+margin-top: 20px;
+position: relative;
+top: 50px;
+}
+.social-1 p{
+position: relative;
+padding: 0;
+color: #fff;
+margin-top: 20px;
+text-align: justify;
+}
+.social-1 input{
+position: relative;
+left: 0;
+top: 0;
+margin-top: 20px;
+width: 290px;
+height: 45px;
+border: none;
+border: 2px solid #21f123;
+font-size: 15px;
+text-transform: capitalize;
+outline: none;
+padding: 5px;
+background: #eee;
+}
+.social-1 .subscibe-btn{
+position: relative;
+top: 0;
+left: -10px;
+padding: 18px;
+border: none;
+margin: 5px;
+outline: noe;
+outline: none;
+font-size: 15px;
+text-transform: capitalize;
+text-align: center;
+color: #fff;
+cursor: pointer;
+background: #15e093;
+}
+/* foter area start here */
+.foter{
+position: relative;
+top: 325px;
+width: 100%;
+height: 125px;
+background: #5f27cd;
+}
+.foter .container{
+width: 1140px;
+display: flex;
+justify-content: space-between;
+}
+.foter img{
+width: 300px;
+height: auto;
+margin: 30px;
+}
+.foter ul{
+position: relative;
+right: 50px;
+top: 40px;
+}
+.foter ul li{
+list-style: none;
+display: inline-block;
+}
+.foter ul li a{
+font-size: 16px;
+color: #fff;
+text-transform: capitalize;
+text-align: center;
+font-weight: 500;
+text-decoration: none;
+margin: 10px;
+}

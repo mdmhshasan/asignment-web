@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>login form</title>
+		<style type="text/css">
+		*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		}
+		body{
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #eee;
+		display: flex;
+		}
+		form{
+		width: 1140px;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #eee;
+		display: flex;
+		}
+		.form-box{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 400px;
+		height: 500px;
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: -2px -2px 5px #eee,2px 2px 5px #eee;
+		}
+		.form-box h1{
+		font-family: sans-serif;
+		text-align: center;
+		text-transform:uppercase;
+		color: #000;
+		font-weight: bold;
+		letter-spacing: 1px;
+		margin: 20px;
+		}
+		.form-box h1 span{
+			color: #f368e0;
+		}
+		.form-box h1 p{
+			color: #44bd32;
+		}
+		.form-box label{
+		position: relative;
+		top: 27px;
+		left: -49px;
+		font-family: sans-serif;
+		text-transform: capitalize;
+		text-align: center;
+		font-size: 12px;
+		font-weight: bold;
+		color: #000;
+		}
+		.form-box .input-box{
+		position: relative;
+		top: 0;
+		left: 70px;
+		}
+		.form-box .input-box input{
+		border: none;
+		padding: 5px;
+		width: 260px;
+		position: relative;
+		left: 25px;
+		height: 30px;
+		margin: 10px;
+		outline: none;
+		background: none;
+		font-size: 20px;
+		border-bottom: 2px solid #21f123;
+		}
+		.form-box .input-box input:focus{
+		border: 2px solid #2196f3;
+		}
+		::placeholder{
+			font-size: 15px;
+		}
+		.login-btn{
+		border: none;
+		position: relative;
+		top: 56px;
+		left: 30%;
+		font-size: 18px;
+		font-family: sans-serif;
+		text-transform: capitalize;
+		color: #fff;
+		font-weight: bold;
+		cursor: pointer;
+		background: #21f123;
+		padding: 15px 60px;
+		box-shadow: -2px -2px 5px #21f123,2px 2px 5px #21f123;
+		}
+		</style>
+	</head>
+	<body>
+		<form>
+			<div class="form-box">
+				<h1>login <span>ragistation</span><p>form</p></h1>
+				<div class="input-box">
+					<label>username</label><br>
+					<input type="text" name="name" placeholder="please enter your name"/><br>
+					<label>userEmail</label><br>
+					<input type="text" name="Email" placeholder="please enter your Email"/><br>
+					<label>password</label><br>
+					<input type="text" name="password" placeholder="please enter your password"/>
+				</div>
+				<button class="login-btn">login</button>
+			</div>
+		</form>
+	</body>
+</html>
